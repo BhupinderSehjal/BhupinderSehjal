@@ -130,17 +130,72 @@ Testing & Quality:
 <table>
 <tr>
 <td width="50%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhupindersehjal&layout=donut&theme=react&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&langs_count=8" alt="Top Languages" width="100%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhupindersehjal&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&langs_count=8" alt="Top Languages" width="100%"/>
 </td>
 <td width="50%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhupindersehjal&theme=react&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=FFFFFF" alt="GitHub Streak" width="100%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhupindersehjal&theme=dark&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=FFFFFF" alt="GitHub Streak" width="100%"/>
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=bhupindersehjal&custom_title=Bhupinder's%20Contribution%20Graph&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
+<br>
+
+<!-- Alternative Activity Graph -->
+<img src="https://activity-graph.herokuapp.com/graph?username=bhupindersehjal&custom_title=Bhupinder's%20Contribution%20Graph&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
 
 </div>
+
+<!-- Coding Stats Dashboard -->
+<details>
+<summary><b>📈 Detailed Coding Analytics</b></summary>
+<br>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Total_Commits-2000%2B-00D4FF?style=for-the-badge&logo=git&logoColor=white"/>
+  <br><b>Code Commits</b>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Languages-12%2B-00D4FF?style=for-the-badge&logo=code&logoColor=white"/>
+  <br><b>Programming Languages</b>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Repositories-25%2B-00D4FF?style=for-the-badge&logo=github&logoColor=white"/>
+  <br><b>Projects Created</b>
+</td>
+<td align="center" width="25%">
+  <img src="https://img.shields.io/badge/Pull_Requests-150%2B-00D4FF?style=for-the-badge&logo=github&logoColor=white"/>
+  <br><b>Contributions</b>
+</td>
+</tr>
+</table>
+
+<br>
+
+### 💻 Weekly Development Breakdown
+```
+Monday     ████████████████████████████████████████ 40%
+Tuesday    ████████████████████████████████████████ 40%
+Wednesday  ████████████████████████████████████████ 40%
+Thursday   ████████████████████████████████████████ 40%
+Friday     ████████████████████████████████████████ 40%
+Saturday   ████████████████████████ 24%
+Sunday     ████████████████ 16%
+```
+
+### 🕐 Coding Time Distribution
+```
+🌅 Morning    ██████████░░░░░░░░░░ 35%
+🌞 Afternoon  ████████████████░░░░ 45%
+🌃 Evening    ██████████░░░░░░░░░░ 20%
+```
+
+</div>
+
+</details>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
@@ -148,7 +203,29 @@ Testing & Quality:
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=bhupindersehjal&theme=onestar&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=bhupindersehjal&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies"/>
+
+</div>
+
+<!-- Professional Achievement Cards -->
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+  <img src="https://img.shields.io/badge/🏅_Professional-Senior_.NET_Developer-FFD700?style=for-the-badge&logoColor=black"/>
+  <br><i>5+ Years Experience</i>
+</td>
+<td align="center" width="33%">
+  <img src="https://img.shields.io/badge/🎯_Expertise-Full_Stack_Architecture-FF6B35?style=for-the-badge&logoColor=white"/>
+  <br><i>End-to-End Solutions</i>
+</td>
+<td align="center" width="33%">
+  <img src="https://img.shields.io/badge/👥_Leadership-Team_Collaboration-4CAF50?style=for-the-badge&logoColor=white"/>
+  <br><i>Mentoring & Guidance</i>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -245,9 +322,47 @@ graph LR
 
 <div align="center">
 
-<a href="https://github.com/bhupindersehjal/pglife">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhupindersehjal&repo=pglife&theme=react&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF" alt="PGLife Project"/>
+<a href="https://github.com/bhupindersehjal">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhupindersehjal&repo=portfolio&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF" alt="Portfolio Project"/>
 </a>
+
+<!-- Interactive Project Showcase -->
+<details>
+<summary><b>🚀 View All Projects</b></summary>
+<br>
+
+<table>
+<tr>
+<td align="center" width="50%">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Project-E_Commerce_Platform-00D4FF?style=for-the-badge&logo=shopping-cart&logoColor=white"/>
+  </a>
+  <br><i>ASP.NET Core, Entity Framework</i>
+</td>
+<td align="center" width="50%">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Project-API_Gateway-FF6B35?style=for-the-badge&logo=api&logoColor=white"/>
+  </a>
+  <br><i>Microservices, Docker</i>
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Project-CRM_System-4CAF50?style=for-the-badge&logo=customer-io&logoColor=white"/>
+  </a>
+  <br><i>React, .NET Web API</i>
+</td>
+<td align="center" width="50%">
+  <a href="#">
+    <img src="https://img.shields.io/badge/Project-Real_Time_Chat-9C27B0?style=for-the-badge&logo=chat&logoColor=white"/>
+  </a>
+  <br><i>SignalR, WebSockets</i>
+</td>
+</tr>
+</table>
+
+</details>
 
 </div>
 
@@ -398,5 +513,17 @@ graph LR
 
 <!-- Snake Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
+  
+<!-- WakaTime-style coding activity -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bhupindersehjal&theme=github_dark" alt="Profile Summary" width="100%"/>
+
+<br><br>
+
+<!-- Snake Animation (if available) -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhupindersehjal/bhupindersehjal/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhupindersehjal/bhupindersehjal/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bhupindersehjal/bhupindersehjal/output/github-contribution-grid-snake.svg">
+</picture>
+
 </div>

@@ -3,7 +3,7 @@
 # 👨‍💻 Bhupinder Sehjal
 ### Full-Stack .NET Developer | Software Architect | Tech Innovation Leader
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=2000&pause=800&color=00D4FF&center=true&vCenter=true&width=800&height=60&lines=Full-Stack+.NET+Developer+%7C+5%2B+Years+Experience;Building+Scalable+Web+Applications;ASP.NET+Core+%7C+Entity+Framework+Expert;Cloud+Solutions+%26+Modern+Architecture;Always+Learning%2C+Always+Growing+🚀" alt="Professional Typing Animation" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=2000&pause=800&color=00D4FF&center=true&vCenter=true&width=800&height=60&lines=Full-Stack+.NET+Developer+%7C+1%2B+Years+Experience;Building+Scalable+Web+Applications;ASP.NET+Core+%7C+Entity+Framework+Expert;Cloud+Solutions+%26+Modern+Architecture;Always+Learning%2C+Always+Growing+🚀" alt="Professional Typing Animation" />
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-00D4FF?style=for-the-badge&logoColor=white)](https://your-portfolio.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/@bhupindersehjal)

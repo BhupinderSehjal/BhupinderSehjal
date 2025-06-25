@@ -22,7 +22,7 @@
 ```typescript
 const bhupinderSehjal = {
     role: "Full-Stack .NET Developer",
-    experience: "5+ Years",
+    experience: "1+ Years",
     location: "Punjab, India",
     expertise: [
         "Enterprise Web Applications",
@@ -56,10 +56,10 @@ const bhupinderSehjal = {
 
 | Technology | Proficiency | Experience | Projects |
 |:-----------|:-----------:|:----------:|:--------:|
-| ![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 5+ Years | 15+ |
-| ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 4+ Years | 12+ |
-| ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) | ⭐⭐⭐⭐⭐ | 5+ Years | 20+ |
-| ![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 4+ Years | 10+ |
+| ![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 1+ Years | 15+ |
+| ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 1+ Years | 12+ |
+| ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) | ⭐⭐⭐⭐⭐ | 1+ Years | 20+ |
+| ![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 1+ Years | 10+ |
 
 </details>
 

@@ -1,529 +1,895 @@
-<div align="center">
-  
-# 👨‍💻 Bhupinder Sehjal
-### Full-Stack .NET Developer | Software Architect | Tech Innovation Leader
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhupinder Sehjal - Full-Stack .NET Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=2000&pause=800&color=00D4FF&center=true&vCenter=true&width=800&height=60&lines=Full-Stack+.NET+Developer+%7C+5%2B+Years+Experience;Building+Scalable+Web+Applications;ASP.NET+Core+%7C+Entity+Framework+Expert;Cloud+Solutions+%26+Modern+Architecture;Always+Learning%2C+Always+Growing+🚀" alt="Professional Typing Animation" />
+        :root {
+            --primary-color: #00D4FF;
+            --secondary-color: #0099CC;
+            --accent-color: #FF6B6B;
+            --bg-dark: #0D1117;
+            --bg-card: #161B22;
+            --bg-light: #1C2128;
+            --text-primary: #ffffff;
+            --text-secondary: #8B949E;
+            --border-color: #30363D;
+            --gradient-1: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-2: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-3: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            --gradient-4: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+        }
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Visit_Now-00D4FF?style=for-the-badge&logoColor=white)](https://your-portfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/@bhupindersehjal)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bhupindersehjal9@gmail.com)
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+        }
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+        /* Animated Background */
+        .animated-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(45deg, #0D1117, #161B22, #1C2128, #0D1117);
+            background-size: 400% 400%;
+            animation: gradientFlow 15s ease infinite;
+        }
 
-</div>
+        @keyframes gradientFlow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
 
-## 🚀 Professional Summary
+        /* Floating geometric shapes */
+        .floating-shapes {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+            overflow: hidden;
+        }
 
-<table>
-<tr>
-<td width="50%">
+        .shape {
+            position: absolute;
+            opacity: 0.1;
+            animation: float 20s infinite ease-in-out;
+        }
 
-```typescript
-const bhupinderSehjal = {
-    role: "Full-Stack .NET Developer",
-    experience: "5+ Years",
-    location: "Punjab, India",
-    expertise: [
-        "Enterprise Web Applications",
-        "RESTful API Architecture",
-        "Database Design & Optimization",
-        "Cloud Solutions & DevOps"
-    ],
-    currentFocus: "Microservices & Cloud-Native Development",
-    mindset: "Clean Code | Scalable Solutions | User-Centric Design"
-};
-```
+        .shape:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            background: var(--gradient-1);
+            border-radius: 50%;
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+        }
 
-</td>
-<td width="50%">
+        .shape:nth-child(2) {
+            width: 120px;
+            height: 120px;
+            background: var(--gradient-2);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            top: 60%;
+            right: 20%;
+            animation-delay: 5s;
+        }
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bhupindersehjal&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%"/>
-</div>
+        .shape:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            background: var(--gradient-3);
+            border-radius: 20%;
+            top: 40%;
+            left: 80%;
+            animation-delay: 10s;
+        }
 
-</td>
-</tr>
-</table>
+        .shape:nth-child(4) {
+            width: 60px;
+            height: 60px;
+            background: var(--gradient-4);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+            top: 80%;
+            left: 30%;
+            animation-delay: 15s;
+        }
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            33% { transform: translateY(-30px) rotate(120deg); }
+            66% { transform: translateY(30px) rotate(240deg); }
+        }
 
-## 💼 Technical Expertise
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
 
-<details open>
-<summary><b>🎯 Backend Development</b></summary>
-<br>
+        /* Enhanced Header */
+        .header {
+            text-align: center;
+            padding: 80px 0;
+            background: linear-gradient(135deg, rgba(0,212,255,0.1), rgba(0,153,204,0.1));
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 30px;
+            margin-bottom: 50px;
+            position: relative;
+            overflow: hidden;
+        }
 
-| Technology | Proficiency | Experience | Projects |
-|:-----------|:-----------:|:----------:|:--------:|
-| ![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 5+ Years | 15+ |
-| ![ASP.NET](https://img.shields.io/badge/ASP.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 4+ Years | 12+ |
-| ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) | ⭐⭐⭐⭐⭐ | 5+ Years | 20+ |
-| ![Entity Framework](https://img.shields.io/badge/Entity_Framework-512BD4?style=flat-square&logo=dotnet&logoColor=white) | ⭐⭐⭐⭐⭐ | 4+ Years | 10+ |
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: conic-gradient(from 0deg, transparent, var(--primary-color), transparent);
+            animation: rotate 10s linear infinite;
+            z-index: -1;
+        }
 
-</details>
+        .header::after {
+            content: '';
+            position: absolute;
+            inset: 2px;
+            background: var(--bg-dark);
+            border-radius: 28px;
+            z-index: -1;
+        }
 
-<details open>
-<summary><b>🎨 Frontend Development</b></summary>
-<br>
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
 
-<div align="center">
+        .header h1 {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, var(--primary-color), #fff, var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-shadow: 0 0 30px rgba(0,212,255,0.5);
+            animation: glow 3s ease-in-out infinite alternate;
+        }
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+        @keyframes glow {
+            from { filter: drop-shadow(0 0 10px rgba(0,212,255,0.5)); }
+            to { filter: drop-shadow(0 0 30px rgba(0,212,255,0.8)); }
+        }
 
-</div>
+        .typing-animation {
+            font-size: clamp(1.2rem, 3vw, 1.8rem);
+            color: var(--text-secondary);
+            font-weight: 600;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-</details>
+        .typing-text {
+            border-right: 3px solid var(--primary-color);
+            padding-right: 10px;
+            animation: blink 1s infinite;
+        }
 
-<details open>
-<summary><b>🛢️ Database & Cloud</b></summary>
-<br>
+        @keyframes blink {
+            0%, 50% { border-color: var(--primary-color); }
+            51%, 100% { border-color: transparent; }
+        }
 
-<div align="center">
+        /* Enhanced Navigation */
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
 
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0089D0?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![AWS](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+        .nav-btn {
+            padding: 15px 30px;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: var(--bg-dark);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            position: relative;
+            overflow: hidden;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
 
-</div>
+        .nav-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+            transition: left 0.5s;
+        }
 
-</details>
+        .nav-btn:hover::before {
+            left: 100%;
+        }
 
-<details open>
-<summary><b>🔧 Development Tools & Practices</b></summary>
-<br>
+        .nav-btn:hover {
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 15px 40px rgba(0,212,255,0.4);
+            background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+        }
 
-```yaml
-Development Environment:
-  - IDE: Visual Studio 2022, VS Code
-  - Version Control: Git, GitHub, Azure DevOps
-  - Project Management: Agile, Scrum, Kanban
-  
-Architecture Patterns:
-  - MVC, MVVM, Repository Pattern
-  - Dependency Injection, SOLID Principles
-  - Microservices Architecture
-  - RESTful API Design
+        /* Enhanced Cards */
+        .card {
+            background: rgba(22, 27, 34, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 25px;
+            padding: 40px;
+            margin: 30px 0;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
 
-Testing & Quality:
-  - Unit Testing (xUnit, NUnit)
-  - Integration Testing
-  - Code Reviews & Pair Programming
-  - Clean Code Principles
-```
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(45deg, transparent, rgba(0,212,255,0.05), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
 
-</details>
+        .card:hover::before {
+            opacity: 1;
+        }
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+        .card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary-color);
+            box-shadow: 0 20px 60px rgba(0,212,255,0.2);
+        }
 
-## 📊 Performance Metrics
+        .card h3 {
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            position: relative;
+            display: inline-block;
+        }
 
-<div align="center">
+        .card h3::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            transition: width 0.3s ease;
+        }
 
-<table>
-<tr>
-<td width="50%">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhupindersehjal&layout=compact&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF&langs_count=8" alt="Top Languages" width="100%"/>
-</td>
-<td width="50%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bhupindersehjal&theme=dark&hide_border=true&background=0D1117&stroke=00D4FF&ring=00D4FF&fire=FF6B35&currStreakLabel=FFFFFF" alt="GitHub Streak" width="100%"/>
-</td>
-</tr>
-</table>
+        .card:hover h3::after {
+            width: 100%;
+        }
 
-<br>
+        /* Enhanced Skills Grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
 
-<!-- Alternative Activity Graph -->
-<img src="https://activity-graph.herokuapp.com/graph?username=bhupindersehjal&custom_title=Bhupinder's%20Contribution%20Graph&bg_color=0D1117&color=00D4FF&line=00D4FF&point=FFFFFF&area=true&hide_border=true" alt="GitHub Activity Graph" width="100%"/>
+        .skill-item {
+            background: rgba(28, 33, 40, 0.9);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            position: relative;
+            overflow: hidden;
+        }
 
-</div>
+        .skill-item::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, var(--primary-color) 0%, transparent 70%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
 
-<!-- Coding Stats Dashboard -->
-<details>
-<summary><b>📈 Detailed Coding Analytics</b></summary>
-<br>
+        .skill-item:hover::before {
+            opacity: 0.1;
+        }
 
-<div align="center">
+        .skill-item:hover {
+            transform: translateY(-10px) scale(1.02);
+            border-color: var(--primary-color);
+            box-shadow: 0 15px 40px rgba(0,212,255,0.3);
+        }
 
-<table>
-<tr>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Total_Commits-2000%2B-00D4FF?style=for-the-badge&logo=git&logoColor=white"/>
-  <br><b>Code Commits</b>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Languages-12%2B-00D4FF?style=for-the-badge&logo=code&logoColor=white"/>
-  <br><b>Programming Languages</b>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Repositories-25%2B-00D4FF?style=for-the-badge&logo=github&logoColor=white"/>
-  <br><b>Projects Created</b>
-</td>
-<td align="center" width="25%">
-  <img src="https://img.shields.io/badge/Pull_Requests-150%2B-00D4FF?style=for-the-badge&logo=github&logoColor=white"/>
-  <br><b>Contributions</b>
-</td>
-</tr>
-</table>
+        .skill-icon {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+            animation: bounce 2s ease-in-out infinite;
+        }
 
-<br>
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
 
-### 💻 Weekly Development Breakdown
-```
-Monday     ████████████████████████████████████████ 40%
-Tuesday    ████████████████████████████████████████ 40%
-Wednesday  ████████████████████████████████████████ 40%
-Thursday   ████████████████████████████████████████ 40%
-Friday     ████████████████████████████████████████ 40%
-Saturday   ████████████████████████ 24%
-Sunday     ████████████████ 16%
-```
+        /* Enhanced Progress Bars */
+        .progress-container {
+            margin: 30px 0;
+        }
 
-### 🕐 Coding Time Distribution
-```
-🌅 Morning    ██████████░░░░░░░░░░ 35%
-🌞 Afternoon  ████████████████░░░░ 45%
-🌃 Evening    ██████████░░░░░░░░░░ 20%
-```
+        .progress-item {
+            margin: 25px 0;
+            position: relative;
+        }
 
-</div>
+        .progress-label {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
 
-</details>
+        .progress-bar {
+            width: 100%;
+            height: 12px;
+            background: rgba(48, 54, 61, 0.8);
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color), var(--primary-color));
+            background-size: 200% 100%;
+            border-radius: 10px;
+            transition: width 2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            position: relative;
+            animation: shimmer 3s infinite;
+        }
 
-## 🏆 Achievements & Recognition
+        @keyframes shimmer {
+            0% { background-position: -200% 0; }
+            100% { background-position: 200% 0; }
+        }
 
-<div align="center">
+        /* Enhanced Statistics */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
 
-<img src="https://github-profile-trophy.vercel.app/?username=bhupindersehjal&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=2&column=4" alt="GitHub Trophies"/>
+        .stat-card {
+            background: rgba(28, 33, 40, 0.9);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
 
-</div>
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
 
-<!-- Professional Achievement Cards -->
-<div align="center">
+        .stat-card:hover::before {
+            opacity: 0.1;
+        }
 
-<table>
-<tr>
-<td align="center" width="33%">
-  <img src="https://img.shields.io/badge/🏅_Professional-Senior_.NET_Developer-FFD700?style=for-the-badge&logoColor=black"/>
-  <br><i>5+ Years Experience</i>
-</td>
-<td align="center" width="33%">
-  <img src="https://img.shields.io/badge/🎯_Expertise-Full_Stack_Architecture-FF6B35?style=for-the-badge&logoColor=white"/>
-  <br><i>End-to-End Solutions</i>
-</td>
-<td align="center" width="33%">
-  <img src="https://img.shields.io/badge/👥_Leadership-Team_Collaboration-4CAF50?style=for-the-badge&logoColor=white"/>
-  <br><i>Mentoring & Guidance</i>
-</td>
-</tr>
-</table>
+        .stat-card:hover {
+            transform: translateY(-10px) scale(1.05);
+            border-color: var(--primary-color);
+            box-shadow: 0 20px 50px rgba(0,212,255,0.3);
+        }
 
-</div>
+        .stat-number {
+            font-size: 3rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 1;
+        }
 
-<table align="center">
-<tr>
-<td align="center">
-  <img src="https://img.shields.io/badge/Projects_Completed-25%2B-00D4FF?style=for-the-badge&logo=checkmarx&logoColor=white"/>
-</td>
-<td align="center">
-  <img src="https://img.shields.io/badge/Years_Experience-5%2B-00D4FF?style=for-the-badge&logo=calendar&logoColor=white"/>
-</td>
-<td align="center">
-  <img src="https://img.shields.io/badge/LinkedIn_Followers-1250%2B-00D4FF?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</td>
-</tr>
-<tr>
-<td align="center">
-  <img src="https://img.shields.io/badge/Code_Reviews-500%2B-00D4FF?style=for-the-badge&logo=github&logoColor=white"/>
-</td>
-<td align="center">
-  <img src="https://img.shields.io/badge/Mentees_Guided-15%2B-00D4FF?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
-</td>
-<td align="center">
-  <img src="https://img.shields.io/badge/Articles_Published-3%2B-00D4FF?style=for-the-badge&logo=medium&logoColor=white"/>
-</td>
-</tr>
-</table>
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            font-weight: 500;
+            position: relative;
+            z-index: 1;
+        }
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+        /* Enhanced Timeline */
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
 
-## 🎯 Current Focus & Learning Path
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, var(--primary-color), var(--secondary-color));
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
 
-<div align="center">
+        .timeline-item {
+            position: relative;
+            margin: 40px 0;
+            width: 50%;
+            padding: 30px;
+            background: rgba(28, 33, 40, 0.9);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 15px;
+            transition: all 0.3s ease;
+        }
 
-```mermaid
-graph LR
-    A[Current Skills] --> B[Expanding Knowledge]
-    B --> C[Future Goals]
+        .timeline-item:nth-child(odd) {
+            left: 0;
+            text-align: right;
+            padding-right: 50px;
+        }
+
+        .timeline-item:nth-child(even) {
+            left: 50%;
+            text-align: left;
+            padding-left: 50px;
+        }
+
+        .timeline-item:hover {
+            transform: scale(1.02);
+            border-color: var(--primary-color);
+            box-shadow: 0 10px 30px rgba(0,212,255,0.2);
+        }
+
+        .timeline-dot {
+            position: absolute;
+            top: 30px;
+            width: 20px;
+            height: 20px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            border: 4px solid var(--bg-dark);
+            box-shadow: 0 0 20px rgba(0,212,255,0.5);
+            z-index: 2;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-dot {
+            right: -10px;
+        }
+
+        .timeline-item:nth-child(even) .timeline-dot {
+            left: -10px;
+        }
+
+        /* Enhanced Interactive Elements */
+        .interactive-section {
+            margin: 50px 0;
+            padding: 40px;
+            background: rgba(22, 27, 34, 0.8);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 25px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .tab-container {
+            margin: 30px 0;
+        }
+
+        .tab-buttons {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .tab-btn {
+            padding: 15px 25px;
+            background: rgba(48, 54, 61, 0.8);
+            color: var(--text-primary);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .tab-btn:hover {
+            transform: translateY(-2px);
+            border-color: var(--primary-color);
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            color: var(--bg-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,212,255,0.3);
+        }
+
+        .tab-content {
+            display: none;
+            padding: 30px;
+            background: rgba(13, 17, 23, 0.8);
+            border-radius: 15px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+
+        .tab-content.active {
+            display: block;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { 
+                opacity: 0; 
+                transform: translateY(20px) scale(0.95); 
+            }
+            to { 
+                opacity: 1; 
+                transform: translateY(0) scale(1); 
+            }
+        }
+
+        /* Enhanced Particles */
+        .particle {
+            position: absolute;
+            width: 6px;
+            height: 6px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            animation: particleFloat 8s infinite ease-in-out;
+            box-shadow: 0 0 10px rgba(0,212,255,0.5);
+        }
+
+        @keyframes particleFloat {
+            0%, 100% { 
+                transform: translateY(0px) translateX(0px) rotate(0deg); 
+                opacity: 0.3; 
+            }
+            33% { 
+                transform: translateY(-80px) translateX(40px) rotate(120deg); 
+                opacity: 1; 
+            }
+            66% { 
+                transform: translateY(-40px) translateX(-40px) rotate(240deg); 
+                opacity: 0.5; 
+            }
+        }
+
+        /* Scroll Indicator */
+        .scroll-indicator {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: rgba(255,255,255,0.1);
+            z-index: 1000;
+        }
+
+        .scroll-progress {
+            height: 100%;
+            background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+            width: 0%;
+            transition: width 0.1s ease;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header {
+                padding: 60px 20px;
+                margin-bottom: 30px;
+            }
+            
+            .nav-buttons {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            .nav-btn {
+                width: 100%;
+                max-width: 300px;
+                text-align: center;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+            
+            .timeline::before {
+                left: 30px;
+            }
+            
+            .timeline-item {
+                width: 100%;
+                left: 0 !important;
+                text-align: left !important;
+                padding: 20px 20px 20px 60px !important;
+            }
+            
+            .timeline-dot {
+                left: 20px !important;
+            }
+            
+            .tab-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .tab-btn {
+                width: 100%;
+                max-width: 250px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .container {
+                padding: 15px;
+            }
+            
+            .card {
+                padding: 25px;
+                margin: 20px 0;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-dark);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(45deg, var(--secondary-color), var(--primary-color));
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg"></div>
     
-    A --> A1[".NET Core Expert"]
-    A --> A2["ASP.NET Master"]
-    A --> A3["Full-Stack Dev"]
+    <!-- Floating Shapes -->
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
     
-    B --> B1["Microservices"]
-    B --> B2["Cloud Architecture"]
-    B --> B3["DevOps & CI/CD"]
-    
-    C --> C1["Solution Architect"]
-    C --> C2["Technical Lead"]
-    C --> C3["Open Source Contributor"]
-    
-    style A fill:#00D4FF,stroke:#333,stroke-width:2px,color:#000
-    style B fill:#FF6B35,stroke:#333,stroke-width:2px,color:#000
-    style C fill:#4CAF50,stroke:#333,stroke-width:2px,color:#000
-```
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <div class="scroll-progress"></div>
+    </div>
 
-</div>
+    <div class="container">
+        <!-- Enhanced Header Section -->
+        <div class="header">
+            <h1>👨‍💻 Bhupinder Sehjal</h1>
+            <div class="typing-animation">
+                <span class="typing-text" id="typing-text">Full-Stack .NET Developer</span>
+            </div>
+        </div>
 
-<table>
-<tr>
-<td width="33%">
+        <!-- Enhanced Navigation -->
+        <div class="nav-buttons">
+            <a href="https://linkedin.com/in/@bhupindersehjal" class="nav-btn">🔗 LinkedIn</a>
+            <a href="mailto:bhupindersehjal9@gmail.com" class="nav-btn">📧 Email</a>
+            <a href="#" class="nav-btn">🌐 Portfolio</a>
+            <a href="#" class="nav-btn">📄 Resume</a>
+        </div>
 
-### 🔄 Currently Learning
-- **Microservices Architecture**
-- **Docker & Kubernetes**
-- **Azure Cloud Services**
-- **Advanced Design Patterns**
+        <!-- Professional Summary -->
+        <div class="card">
+            <h3>🚀 Professional Summary</h3>
+            <p>Passionate Full-Stack .NET Developer with 5+ years of expertise in crafting scalable, high-performance web applications. Specializing in ASP.NET Core, Entity Framework, and cutting-edge frontend technologies. Committed to delivering exceptional user experiences through clean code architecture, performance optimization, and innovative problem-solving approaches.</p>
+        </div>
 
-</td>
-<td width="33%">
+        <!-- Skills Section -->
+        <div class="card">
+            <h3>💼 Technical Expertise</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">🔧</div>
+                    <h4>Backend Development</h4>
+                    <p>.NET Core, ASP.NET, C#, Entity Framework, Web APIs</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🎨</div>
+                    <h4>Frontend Development</h4>
+                    <p>HTML5, CSS3, JavaScript, React, Angular, Bootstrap</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🛢️</div>
+                    <h4>Database</h4>
+                    <p>SQL Server, MySQL, PostgreSQL, MongoDB</p>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">☁️</div>
+                    <h4>Cloud & DevOps</h4>
+                    <p>Azure, AWS, Docker, Kubernetes, CI/CD</p>
+                </div>
+            </div>
+        </div>
 
-### 🎯 2024 Goals
-- **Azure Certification**
-- **Open Source Contributions**
-- **Technical Blog Writing**
-- **Conference Speaking**
+        <!-- Skills Progress -->
+        <div class="card">
+            <h3>📊 Skill Proficiency</h3>
+            <div class="progress-container">
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>ASP.NET Core</span>
+                        <span>95%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>Entity Framework</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>JavaScript/TypeScript</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>React/Angular</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="80"></div>
+                    </div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label">
+                        <span>Cloud Technologies</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-</td>
-<td width="33%">
+        <!-- Statistics -->
+        <div class="card">
+            <h3>📈 Professional Statistics</h3>
+            <div class="stats-grid">
+                <div class="stat-card" onclick="animateNumber(this)">
+                    <div class="stat-number" data-target="25">0</div>
+                    <div class="stat-label">Projects Completed</div>
+                </div>
+                <div class="stat-card" onclick="animateNumber(this)">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-card" onclick="animateNumber(this)">
+                    <div class="stat-number" data-target="1250">0</div>
+                    <div class="stat-label">LinkedIn Followers</div>
+                </div>
+                <div class="stat-card" onclick="animateNumber(this)">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Technologies Mastered</div>
+                </div>
+            </div>
+        </div>
 
-### 💡 Interests
-- **Clean Architecture**
-- **Performance Optimization**
-- **DevOps Culture**
-- **Team Leadership**
-
-</td>
-</tr>
-</table>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📝 Featured Projects
-
-<div align="center">
-
-<a href="https://github.com/bhupindersehjal">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=bhupindersehjal&repo=portfolio&theme=dark&hide_border=true&bg_color=0D1117&title_color=00D4FF&text_color=FFFFFF" alt="Portfolio Project"/>
-</a>
-
-<!-- Interactive Project Showcase -->
-<details>
-<summary><b>🚀 View All Projects</b></summary>
-<br>
-
-<table>
-<tr>
-<td align="center" width="50%">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Project-E_Commerce_Platform-00D4FF?style=for-the-badge&logo=shopping-cart&logoColor=white"/>
-  </a>
-  <br><i>ASP.NET Core, Entity Framework</i>
-</td>
-<td align="center" width="50%">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Project-API_Gateway-FF6B35?style=for-the-badge&logo=api&logoColor=white"/>
-  </a>
-  <br><i>Microservices, Docker</i>
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Project-CRM_System-4CAF50?style=for-the-badge&logo=customer-io&logoColor=white"/>
-  </a>
-  <br><i>React, .NET Web API</i>
-</td>
-<td align="center" width="50%">
-  <a href="#">
-    <img src="https://img.shields.io/badge/Project-Real_Time_Chat-9C27B0?style=for-the-badge&logo=chat&logoColor=white"/>
-  </a>
-  <br><i>SignalR, WebSockets</i>
-</td>
-</tr>
-</table>
-
-</details>
-
-</div>
-
-<table>
-<tr>
-<td>
-
-### 🏠 PGLife - Student Accommodation Platform
-**Tech Stack:** PHP, JavaScript, CSS, MySQL  
-**Role:** Full-Stack Developer  
-**Features:**
-- Property listing and search functionality
-- User authentication and profile management
-- Booking system with payment integration
-- Responsive design for mobile compatibility
-
-</td>
-<td>
-
-### 🚀 Enterprise Web Application
-**Tech Stack:** ASP.NET Core, Entity Framework, SQL Server  
-**Role:** Lead Developer  
-**Features:**
-- Microservices architecture
-- RESTful API with comprehensive documentation
-- Role-based authentication and authorization
-- Performance optimized for high traffic
-
-</td>
-</tr>
-</table>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 📈 Professional Network & Influence
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="25%">
-  <img src="https://img.icons8.com/color/96/000000/linkedin.png" width="50"/>
-  <br><strong>LinkedIn</strong>
-  <br>1,250+ Followers
-  <br>220+ Posts
-</td>
-<td align="center" width="25%">
-  <img src="https://img.icons8.com/color/96/000000/github--v1.png" width="50"/>
-  <br><strong>GitHub</strong>
-  <br>Active Contributor
-  <br>Open Source Projects
-</td>
-<td align="center" width="25%">
-  <img src="https://img.icons8.com/color/96/000000/medium-logo.png" width="50"/>
-  <br><strong>Articles</strong>
-  <br>Technical Writing
-  <br>Best Practices
-</td>
-<td align="center" width="25%">
-  <img src="https://img.icons8.com/color/96/000000/conference.png" width="50"/>
-  <br><strong>Mentoring</strong>
-  <br>Knowledge Sharing
-  <br>Community Building
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 🤝 Let's Connect & Collaborate
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0077B5)](https://linkedin.com/in/@bhupindersehjal)
-[![Email](https://img.shields.io/badge/Email-Direct_Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:bhupindersehjal9@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View_Work-00D4FF?style=for-the-badge&logo=google-chrome&logoColor=white&labelColor=00D4FF)](https://your-portfolio.com)
-[![Resume](https://img.shields.io/badge/Resume-Download_PDF-FF6B35?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white&labelColor=FF6B35)](https://your-resume-link.com)
-
-<br><br>
-
-**🌟 Open to exciting opportunities in:**
-- Full-Stack Development Roles
-- Technical Leadership Positions
-- Consulting & Freelance Projects
-- Open Source Collaborations
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## ☕ Support My Work
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center">
-  <a href="https://buymeacoffee.com/bhupindersehjal">
-    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support%20My%20Work-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&labelColor=FFDD00" alt="Buy Me A Coffee"/>
-  </a>
-</td>
-<td align="center">
-  <a href="https://ko-fi.com/catchycoffee">
-    <img src="https://img.shields.io/badge/Ko--Fi-Support%20Development-F16061?style=for-the-badge&logo=ko-fi&logoColor=white&labelColor=F16061" alt="Ko-Fi"/>
-  </a>
-</td>
-</tr>
-</table>
-
-*Your support helps me dedicate more time to open source projects and knowledge sharing!*
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-## 💭 Developer Philosophy
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=react&border=true&quote=Code%20is%20like%20humor.%20When%20you%20have%20to%20explain%20it,%20it's%20bad.&author=Cory%20House" alt="Developer Quote"/>
-
-<br><br>
-
-**My Development Principles:**
-```
-🔹 Write code that tells a story
-🔹 Optimize for readability and maintainability
-🔹 Test early, test often, deploy with confidence
-🔹 Continuous learning is the key to staying relevant
-🔹 Collaboration over competition
-```
-
-</div>
-
----
-
-<div align="center">
-  
-<img src="https://komarev.com/ghpvc/?username=bhupindersehjal&label=Profile%20Views&color=00D4FF&style=for-the-badge" alt="Profile Views"/>
-
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00D4FF&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=16&fontColor=FFFFFF&animation=twinkling" width="100%"/>
-
-</div>
-
-<!-- Snake Animation -->
-<div align="center">
-  
-<!-- WakaTime-style coding activity -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=bhupindersehjal&theme=github_dark" alt="Profile Summary" width="100%"/>
-
-<br><br>
-
-<!-- Snake Animation (if available) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bhupindersehjal/bhupindersehjal/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bhupindersehjal/bhupindersehjal/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/bhupindersehjal/bhupindersehjal/output/github-contribution-grid-snake.svg">
-</picture>
-
-</div>
+        <!-- Interactive Tabs -->
+        <div class="interactive-section">
+            <h3>🎯 Explore My Journey</h3>
+            <div class="tab-container">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" onclick="showTab('projects')">📱 Projects</button>
+                    <button class="tab-

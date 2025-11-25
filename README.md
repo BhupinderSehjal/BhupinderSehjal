@@ -40,7 +40,14 @@ const bhupinderSehjal = {
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=bhupindersehjal&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF&count_private=true&include_all_commits=true" alt="GitHub Stats" width="100%"/>
+</div><div align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api?username=bhupindersehjal&show_icons=true&theme=react&hide_border=true&bg_color=0D1117&title_color=00D4FF&icon_color=00D4FF&text_color=FFFFFF" 
+    alt="GitHub Stats" 
+    width="100%" 
+  />
 </div>
+
 
 </td>
 </tr>

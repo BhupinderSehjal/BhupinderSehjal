@@ -1,6 +1,4 @@
-I'll transform your README into a 2026 premium version with a futuristic design, enhanced metrics, and modern styling.
 
-```markdown
 <div align="center">
 
 # 🚀 **BHUPINDER SEHJAL**  

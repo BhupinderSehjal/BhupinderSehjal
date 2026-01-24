@@ -168,8 +168,7 @@ public class BhupinderSehjal2026
 <td width="50%">
 
 #### **🔥 Contribution Streak**
-[![GitHub Streak](https://streak-stats.demolab.com/?user=bhupindersehjal)](https://git.io/streak-stats)
-
+<a href="https://ggithubstreak.com/u/bhupindersehjal"><img src="https://api.ggithubstreak.com/v1/embed/bhupindersehjal/svg?theme=dark" alt="bhupindersehjal's GitHub Streak" /></a>
 </td>
 </tr>
 </table>

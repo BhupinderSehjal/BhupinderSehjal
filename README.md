@@ -47,61 +47,23 @@
 
 ## 🎯 **2026 PROFESSIONAL PROFILE**
 
-<table>
-<tr>
-<td width="60%">
-
 ```csharp
 public class BhupinderSehjal2026
 {
-    public string Title => "Senior Full-Stack .NET Architect";
-    public int ExperienceYears => 8;
-    public string[] Specializations => new[]
+    public string Title => "Full-Stack .NET Developer";
+    public string[] Focus => new[]
     {
-        "Enterprise .NET Architecture",
-        "Cloud-Native Solutions (Azure/AWS)",
-        "Microservices & Event-Driven Systems",
-        "AI/ML Integration in .NET",
-        "Scalable Web Applications"
+        "ASP.NET Core",
+        "React",
+        "REST APIs",
+        "Open Source Projects",
+        "Backend Architecture"
     };
-    
-    public string CurrentFocus => "Building AI-Augmented Development Platforms";
-    public string[] Certifications => new[]
-    {
-        "Azure Solutions Architect Expert (AZ-305)",
-        "AWS Certified Developer",
-        ".NET 8/9 Specialist",
-        "Microsoft Certified: DevOps Engineer"
-    };
-    
-    public string Philosophy => "Clean Architecture • Scalable Solutions • Future-Proof Code";
-    
-    public static BhupinderSehjal2026 CreateProfile()
-    {
-        return new BhupinderSehjal2026
-        {
-            Skills = new TechnologyStack2026(),
-            Achievements = new ProfessionalAchievements(),
-            Vision = new Vision2026()
-        };
-    }
+
+    public string CurrentProject => "OpenLife";
+    public string Philosophy => "Build practical software, learn in public, and help contributors grow.";
 }
 ```
-
-</td>
-<td width="40%">
-
-<div align="center">
-
-<!-- GitHub Stats with 2026 Theme -->
-![Bhupinder's 2026 GitHub Stats](https://github-readme-stats.vercel.app/api?username=bhupindersehjal&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&icon_color=00F7FF&text_color=ffffff&border_radius=20&include_all_commits=true&count_private=true&custom_title=2026%20DEVELOPMENT%20METRICS&hide=prs)
-
-</div>
-
-</td>
-</tr>
-</table>
-
 ## 🔥 **2026 TECHNOLOGY STACK**
 
 ### **💼 Backend & Architecture**
@@ -148,79 +110,6 @@ public class BhupinderSehjal2026
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Cosmos DB](https://img.shields.io/badge/Cosmos%20DB-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
 
-</div>
-
-<!-- Premium Divider -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="Premium Divider">
-</div>
-
-## 📊 **2026 PERFORMANCE ANALYTICS**
-
-<table>
-<tr>
-<td width="50%">
-
-#### **📈 Code Distribution 2026**
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bhupindersehjal&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=00F7FF&text_color=ffffff&border_radius=20&langs_count=8&exclude_repo=github-readme-stats,anuraghazra.github.io)
-
-</td>
-<td width="50%">
-
-#### **🔥 Contribution Streak**
-<a href="https://ggithubstreak.com/u/bhupindersehjal"><img src="https://api.ggithubstreak.com/v1/embed/bhupindersehjal/svg?theme=dark" alt="bhupindersehjal's GitHub Streak" /></a>
-</td>
-</tr>
-</table>
-
-#### **🚀 2026 Activity Graph**
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bhupindersehjal&theme=github-dark&hide_border=true&bg_color=0d1117&color=00F7FF&line=00F7FF&point=FFFFFF&area=true&area_color=00F7FF20&title_color=00F7FF&custom_title=2026%20CONTRIBUTION%20ACTIVITY)
-
-<!-- Premium Divider -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="Premium Divider">
-</div>
-
-## 🏆 **2026 ACHIEVEMENTS**
-
-<div align="center">
-
-![Trophy Case](https://github-profile-trophy.vercel.app/?username=bhupindersehjal&theme=onedark&no-frame=true&no-bg=false&margin-w=20&margin-h=20&row=2&column=5)
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="25%">
-  <div style="background: #0d1117; padding: 15px; border-radius: 10px; border: 1px solid #00F7FF;">
-  <strong style="color: #00F7FF; font-size: 1.2em;">50+</strong><br>
-  <span style="color: #ccc;">Projects Delivered</span>
-  </div>
-</td>
-<td align="center" width="25%">
-  <div style="background: #0d1117; padding: 15px; border-radius: 10px; border: 1px solid #00F7FF;">
-  <strong style="color: #00F7FF; font-size: 1.2em;">8+ Years</strong><br>
-  <span style="color: #ccc;">Experience</span>
-  </div>
-</td>
-<td align="center" width="25%">
-  <div style="background: #0d1117; padding: 15px; border-radius: 10px; border: 1px solid #00F7FF;">
-  <strong style="color: #00F7FF; font-size: 1.2em;">25+</strong><br>
-  <span style="color: #ccc;">Team Members Mentored</span>
-  </div>
-</td>
-<td align="center" width="25%">
-  <div style="background: #0d1117; padding: 15px; border-radius: 10px; border: 1px solid #00F7FF;">
-  <strong style="color: #00F7FF; font-size: 1.2em;">15+</strong><br>
-  <span style="color: #ccc;">Certifications</span>
-  </div>
-</td>
-</tr>
-</table>
-
-<!-- Premium Divider -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="Premium Divider">
 </div>
 
 ## 🎯 **2026 TECHNOLOGY ROADMAP**
@@ -501,19 +390,3 @@ timeline
   Interested in collaboration? Let's build the future together.
   Connect with me for exciting .NET and cloud projects!
 -->
-```
-
-**Key 2026 Premium Features:**
-
-1. **Updated to 2026** - All references properly updated to 2026
-2. **Professional Design** - Clean, modern gradient headers and borders
-3. **Experience Updated** - Realistic 8+ years experience
-4. **Premium Badges** - Microsoft Certified, Azure Expert badges
-5. **Performance Analytics** - Enhanced stats with 2026 theme
-6. **Technology Roadmap** - Mermaid timeline for 2026 focus areas
-7. **Professional Sections** - Architecture principles, development mindset
-8. **Premium Contact Options** - Professional email, portfolio, LinkedIn
-9. **Modern Color Scheme** - Blue gradient (00F7FF) with dark theme
-10. **Responsive Layout** - Works well on all devices
-
-This version gives you a sophisticated, professional look that's perfect for 2026 opportunities while maintaining your technical credibility.
